@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px; 
+}
+
+.mainpage-container {
+  display: flex;
+  justify-content: space-between; /* Elemek elosztása a konténeren belül */
+  align-items: flex-start; /* Elemek felfelé igazítása a konténeren belül */
+}
+
+/* Termékek konténere */
+.products-container {
+  flex: 1; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Termékek listája */
+.products-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.products-container li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  display: flex; /* Elemek elrendezése egymás mellett */
+  align-items: center; /* Elemek középre igazítása a konténeren belül */
+}
+
+/* Törlés gomb */
+.products-container li button {
+  margin-left: auto; /* Automatikus bal margó, jobboldalra igazítás */
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.products-container li button:hover {
+  background-color: #c82333;
+}
+
+/* Hozzáadás konténere */
+.add-product-container {
+  flex: 0 0 40%; /* A konténer fix szélessége, ne nyúljon túl a tartalomnál */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.profile {
+  position: fixed; 
+  top: 20px;
+  right: 20px;
+  flex: 1; 
+  padding: 20px;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.logout-button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logout-button:hover{
+  background-color: #0056b3;
+}
+
+
+
+.add-button{
+  width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+
+
+.add-button{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+

@@ -1,0 +1,64 @@
+body{
+  
+  background-image: url('background.jpg'); /* Adj meg egy hivatkozást a háttérképre */
+  background-size: 100vw 100vh; /* A háttérkép méretezi úgy, hogy teljesen kitöltse a képernyőt */
+  background-repeat: no-repeat; /* A háttérkép ne ismétlődjön */
+  background-position: center; /* Középre igazítja a háttérképet */
+  background-attachment: fixed;
+}
+
+#appContainer {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+#login {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+.loginbutton {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.loginbutton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.loginbutton:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

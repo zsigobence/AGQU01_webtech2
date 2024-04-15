@@ -1,0 +1,46 @@
+#registerContainer {
+  width: 350px;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-top: 50px; 
+}
+
+#registerTitle {
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+.registerbutton {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.registerbutton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registerbutton:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
