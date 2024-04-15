@@ -1,8 +1,8 @@
 # AGQU01_webtech2
-#Backend:
+## Backend:
 ~/beadando/backend
 node server.js
 
-#Frontend:
+## Frontend:
 ~/beadando
 npm start
